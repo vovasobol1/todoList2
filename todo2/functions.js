@@ -1,10 +1,3 @@
-const bntNewTodo = document.getElementById('button_new_todo');
-const input = document.querySelector('#input');
-const todosContainer = document.querySelector('#todosContainer');
-const delnet = document.querySelector('.delnet');
-arrTodos = [];
-
-
 // функции
 
 // функция удаления дела из массива 
@@ -208,15 +201,4 @@ const togleDone = (event) => {
     }
 }
 
-
-
-//обработчики кликов
-todosContainer.addEventListener('click', deleteTodo);
-todosContainer.addEventListener('click', togleDone);
-bntNewTodo.onclick = bntNewTodoClick;
-
-
-
-input.addEventListener('click', () => {
-    console.log(arrTodos)
-})
+export deleteTofoInArray
